@@ -9,6 +9,10 @@ target 'TestResourcesIntoModule' do
   pod 'SwiftLint'
   pod 'SwiftGen'
 
+  pod 'JGProgressHUD'
+  pod 'Charts'
+  pod 'SwiftMessages'
+
   target 'TestResourcesIntoModuleTests' do
     inherit! :search_paths
     # Pods for testing

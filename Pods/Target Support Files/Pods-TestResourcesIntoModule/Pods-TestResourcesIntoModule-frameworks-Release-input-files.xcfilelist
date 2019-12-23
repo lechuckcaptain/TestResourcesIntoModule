@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-TestResourcesIntoModule/Pods-TestResourcesIntoModule-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework

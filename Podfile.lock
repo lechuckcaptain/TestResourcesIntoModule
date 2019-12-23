@@ -1,20 +1,36 @@
 PODS:
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - JGProgressHUD (2.1)
   - SwiftGen (6.1.0)
   - SwiftLint (0.38.0)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
 
 DEPENDENCIES:
+  - Charts
+  - JGProgressHUD
   - SwiftGen
   - SwiftLint
+  - SwiftMessages
 
 SPEC REPOS:
   trunk:
+    - Charts
+    - JGProgressHUD
     - SwiftGen
     - SwiftLint
+    - SwiftMessages
 
 SPEC CHECKSUMS:
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
   SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
   SwiftLint: 4105f061f9812b214568b736dab580ab2c73a582
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
 
-PODFILE CHECKSUM: 9833ca5fe45a28e9aa11fe021c4dacd6cb6e1af6
+PODFILE CHECKSUM: c4d46a08037268b9473da47418c57caa6050bca1
 
 COCOAPODS: 1.8.4
