@@ -84,7 +84,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="LNg-tV-QHl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Tan-OR-Gmh"/>
                             <constraint firstItem="LNg-tV-QHl" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="akB-Fo-785"/>
@@ -99,19 +99,19 @@
     </scenes>
     <resources>
         <namedColor name="LocalBackground">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.78543609380000001" green="0.78554731609999995" blue="0.78540104629999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="LocalButton">
-            <color red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.017000000923871994" green="0.19799999892711639" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="LocalText">
-            <color red="0.2035563588" green="0.20359057189999999" blue="0.20354557039999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20399999618530273" green="0.20399999618530273" blue="0.20399999618530273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ModuleBackground">
-            <color red="0.31062465409205187" green="0.65666360933917201" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.31099998950958252" green="0.65700000524520874" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ModuleButton">
-            <color red="1" green="0.0" blue="0.12478980328572753" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.0" blue="0.125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ModuleText">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		79E5EAFB82E1AED9080B2F7D /* Pods_TestResourcesIntoModule_TestResourcesIntoModuleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65324332BC46624E8F7ACEE /* Pods_TestResourcesIntoModule_TestResourcesIntoModuleUITests.framework */; };
-		A98ED92523B0D56100E9FA61 /* Generated in Resources */ = {isa = PBXBuildFile; fileRef = A98ED92423B0D56000E9FA61 /* Generated */; };
+		A98ED94923B0F4F000E9FA61 /* Module.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98ED94823B0F4F000E9FA61 /* Module.xcassets */; };
 		A9D0FCBB23B0C42F004D60C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D0FCBA23B0C42F004D60C3 /* AppDelegate.swift */; };
 		A9D0FCBD23B0C42F004D60C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D0FCBC23B0C42F004D60C3 /* SceneDelegate.swift */; };
 		A9D0FCBF23B0C42F004D60C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D0FCBE23B0C42F004D60C3 /* ViewController.swift */; };
@@ -46,7 +46,7 @@
 		59D62C773218FAF76EF6214D /* Pods-TestResourcesIntoModule-TestResourcesIntoModuleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestResourcesIntoModule-TestResourcesIntoModuleUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestResourcesIntoModule-TestResourcesIntoModuleUITests/Pods-TestResourcesIntoModule-TestResourcesIntoModuleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		84E9C830F28EDC766700BEBA /* Pods-TestResourcesIntoModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestResourcesIntoModuleTests.debug.xcconfig"; path = "Target Support Files/Pods-TestResourcesIntoModuleTests/Pods-TestResourcesIntoModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		987FC76593F93C6A2B699D07 /* Pods-TestResourcesIntoModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestResourcesIntoModuleTests.release.xcconfig"; path = "Target Support Files/Pods-TestResourcesIntoModuleTests/Pods-TestResourcesIntoModuleTests.release.xcconfig"; sourceTree = "<group>"; };
-		A98ED92423B0D56000E9FA61 /* Generated */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Generated; sourceTree = "<group>"; };
+		A98ED94823B0F4F000E9FA61 /* Module.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Module.xcassets; sourceTree = "<group>"; };
 		A9D0FCB723B0C42F004D60C3 /* TestResourcesIntoModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestResourcesIntoModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D0FCBA23B0C42F004D60C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9D0FCBC23B0C42F004D60C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +106,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A98ED94723B0F4F000E9FA61 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				A98ED94823B0F4F000E9FA61 /* Module.xcassets */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		A9D0FCAE23B0C42F004D60C3 = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +139,7 @@
 		A9D0FCB923B0C42F004D60C3 /* TestResourcesIntoModule */ = {
 			isa = PBXGroup;
 			children = (
-				A98ED92423B0D56000E9FA61 /* Generated */,
+				A98ED94723B0F4F000E9FA61 /* Generated */,
 				A9D0FCBA23B0C42F004D60C3 /* AppDelegate.swift */,
 				A9D0FCBC23B0C42F004D60C3 /* SceneDelegate.swift */,
 				A9D0FCBE23B0C42F004D60C3 /* ViewController.swift */,
@@ -281,8 +289,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A98ED92523B0D56100E9FA61 /* Generated in Resources */,
 				A9D0FCC723B0C433004D60C3 /* LaunchScreen.storyboard in Resources */,
+				A98ED94923B0F4F000E9FA61 /* Module.xcassets in Resources */,
 				A9D0FCC423B0C433004D60C3 /* Assets.xcassets in Resources */,
 				A9D0FCC223B0C42F004D60C3 /* Main.storyboard in Resources */,
 			);
