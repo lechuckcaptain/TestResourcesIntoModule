@@ -1,0 +1,26 @@
+### OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Xcode Compiled source
+*.com
+*.class
+*.exe
+*.o
+*.so
+build/
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+xcuserdata
+DerivedData
+Changelog/node_modules
+.vscode
+.scannerwork
