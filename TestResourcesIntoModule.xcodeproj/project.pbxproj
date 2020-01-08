@@ -428,7 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nchflags -R nouchg TestResourcesIntoModule/Generated\nrsync -azvh --delete ResourcesModule/ResourcesModule/Synced.xcassets TestResourcesIntoModule/Generated/\nchflags -R uchg TestResourcesIntoModule/Generated\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#chflags -R nouchg TestResourcesIntoModule/Generated\nrsync -azvh --delete ResourcesModule/ResourcesModule/Synced.xcassets TestResourcesIntoModule/Generated/\n#chflags -R uchg TestResourcesIntoModule/Generated\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
