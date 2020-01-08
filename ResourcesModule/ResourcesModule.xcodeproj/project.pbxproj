@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A914F06023C64269007E82E1 /* NotSynced.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A914F05F23C64269007E82E1 /* NotSynced.xcassets */; };
 		A9D0FCFE23B0C988004D60C3 /* ResourcesModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D0FCF423B0C988004D60C3 /* ResourcesModule.framework */; };
 		A9D0FD0323B0C988004D60C3 /* ResourcesModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D0FD0223B0C988004D60C3 /* ResourcesModuleTests.swift */; };
 		A9D0FD0523B0C988004D60C3 /* ResourcesModule.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D0FCF723B0C988004D60C3 /* ResourcesModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9D0FD0F23B0CBC8004D60C3 /* Module.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D0FD0E23B0CBC8004D60C3 /* Module.xcassets */; };
+		A9D0FD0F23B0CBC8004D60C3 /* Synced.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D0FD0E23B0CBC8004D60C3 /* Synced.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,13 +25,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A914F05F23C64269007E82E1 /* NotSynced.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NotSynced.xcassets; sourceTree = "<group>"; };
 		A9D0FCF423B0C988004D60C3 /* ResourcesModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResourcesModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D0FCF723B0C988004D60C3 /* ResourcesModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResourcesModule.h; sourceTree = "<group>"; };
 		A9D0FCF823B0C988004D60C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D0FCFD23B0C988004D60C3 /* ResourcesModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResourcesModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D0FD0223B0C988004D60C3 /* ResourcesModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesModuleTests.swift; sourceTree = "<group>"; };
 		A9D0FD0423B0C988004D60C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9D0FD0E23B0CBC8004D60C3 /* Module.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Module.xcassets; sourceTree = "<group>"; };
+		A9D0FD0E23B0CBC8004D60C3 /* Synced.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Synced.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,8 @@
 			children = (
 				A9D0FCF723B0C988004D60C3 /* ResourcesModule.h */,
 				A9D0FCF823B0C988004D60C3 /* Info.plist */,
-				A9D0FD0E23B0CBC8004D60C3 /* Module.xcassets */,
+				A9D0FD0E23B0CBC8004D60C3 /* Synced.xcassets */,
+				A914F05F23C64269007E82E1 /* NotSynced.xcassets */,
 			);
 			path = ResourcesModule;
 			sourceTree = "<group>";
@@ -181,7 +184,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9D0FD0F23B0CBC8004D60C3 /* Module.xcassets in Resources */,
+				A9D0FD0F23B0CBC8004D60C3 /* Synced.xcassets in Resources */,
+				A914F06023C64269007E82E1 /* NotSynced.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
