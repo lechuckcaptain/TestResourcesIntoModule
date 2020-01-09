@@ -1,0 +1,26 @@
+{
+  "name": "PodResourcesModule",
+  "version": "0.1.0",
+  "summary": "PodResourcesModule example Pod module for external assets resources",
+  "homepage": "https://github.com/lechuckcaptain/TestResourcesIntoModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lechuckcaptain@gmail.com": "lechuckcaptain@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lechuckcaptain@gmail.com/PodResourcesModule.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.1",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "PodResourcesModule/Classes/**/*",
+  "resources": [
+    "PodResourcesModule/**/*.{xcassets}"
+  ],
+  "swift_version": "5.1"
+}

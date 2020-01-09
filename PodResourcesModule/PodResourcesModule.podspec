@@ -19,8 +19,12 @@ Pod::Spec.new do |s|
   s.source_files = 'PodResourcesModule/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'PodResourcesModule' => ['PodResourcesModule/Assets/*.png']
+  #  'PodResourcesModule' => ['PodResourcesModule/**/*.{xcassets}']
   # }
+  
+  s.resources = [
+    "PodResourcesModule/**/*.{xcassets}"
+  ]
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

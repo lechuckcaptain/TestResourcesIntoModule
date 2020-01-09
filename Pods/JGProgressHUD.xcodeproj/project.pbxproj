@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035B6DDA839F02B0DC9D3911BF3BD2F3 /* JGProgressHUDErrorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B755A46338AC873483511BCF2BC609 /* JGProgressHUDErrorIndicatorView.m */; };
+		03EEC43F9247106CB3ABE7A2D454D70B /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F266C56B9B2824766E8D3961ECFE9F8F /* JGProgressHUDRingIndicatorView.m */; };
+		165101BB088E82DA6E88F961F162E3E3 /* JGProgressHUDFadeZoomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E920AD03F47F27C64C448E272D3478 /* JGProgressHUDFadeZoomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C05AD7DCF644DA45CF2CCCE72274827 /* JGProgressHUDIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C12D3A1DD0C8304C22648E3E29C558 /* JGProgressHUDIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE65A8784759CD2C9BFA92518B74765 /* JGProgressHUDFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4D90D7936C1C84AFEF7214080C2EE2 /* JGProgressHUDFadeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F480ECCFD551940812FE6946E222C21 /* JGProgressHUDShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 717485686A51CD9135509C11B592352D /* JGProgressHUDShadow.m */; };
+		1F7A9786E878CFF410A8939DA1890F11 /* JGProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5388318B7A99017865164E48F4C01 /* JGProgressHUD-dummy.m */; };
+		2AD3A27601F9978F3872282A3299C72D /* JGProgressHUDRingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2140ED8094D2A08515F58A266E22713D /* JGProgressHUDRingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		332D6A8829844F642ACDF38D4D669FCA /* JGProgressHUDShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CF36AB8F751E0A7750A08993A729B4 /* JGProgressHUDShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343C828E0383FBC74E7E5CB693AB7682 /* JGProgressHUDSuccessIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C1C5D1624C23D7CE34E9C96DB731E0 /* JGProgressHUDSuccessIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8FE9E9F1F73B4752B8E3FAD8946B77 /* JGProgressHUD-Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B7EFEFEEFB8BEC182B5E3247A3B5CE /* JGProgressHUD-Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF8C84301B54ED2EED161E36133BAEA /* JGProgressHUDImageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F383CE38DC258C99DB890AA675482D /* JGProgressHUDImageIndicatorView.m */; };
+		53CAE091A55B58DAE426D3D20BEF4C6F /* JGProgressHUDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02987CC27E48F7BC4423B8991BEA2B47 /* JGProgressHUDIndicatorView.m */; };
+		5887BE2142FAC38ED0EAD8536F701180 /* JGProgressHUDSuccessIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC358059B9879520286F13E573C373F /* JGProgressHUDSuccessIndicatorView.m */; };
+		625EFAFD92F4E4308ADD43AE51132DA1 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3778E8C86F4849A6898682D12238F633 /* JGProgressHUDIndeterminateIndicatorView.m */; };
+		626539B9890BDABC5A9A2963C6A75B46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24AC950C6E87FE9E54B6EF988B91E27 /* Foundation.framework */; };
+		7C3F3443C9834AB7BDF8CBF46EF3AACD /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4AF3D69EC54AFFDB3E12A35225D360 /* JGProgressHUDPieIndicatorView.m */; };
+		7D675C5259BCCC20BCC8A0136DA4B4F0 /* JGProgressHUDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DC269A92BF10CCD8463BAC91D3FDA6 /* JGProgressHUDAnimation.m */; };
+		82816A8E2C804788B644B13F69E6D07B /* JGProgressHUDImageIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = D852EE661CC7F4B108CFC65EC769441A /* JGProgressHUDImageIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B2F768900C7FA82EE54D4CD29E8686 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D51E4CE198BB14CF9F70A64D2B59A1C /* JGProgressHUDIndeterminateIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0F707E067219AEF1B873A002F2E4F5D /* JGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 591E1C1E35704AAFAEBAF2F12723B4CE /* JGProgressHUD.m */; };
+		AC3EE197DD5A6A4AB538842FF0B7284C /* JGProgressHUDErrorIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C460CC8F5D455F85CEA07896F9E2BE /* JGProgressHUDErrorIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFBAD8F78794F171DC69E19D940D4D9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F45FDB6712C750D4B0B5CB68D945263 /* UIKit.framework */; };
+		C11940576AFC09E035336033A32E370E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A426E0F7E875947DDD54493DE14EACC /* QuartzCore.framework */; };
+		C1A443E8EE4421A9033B51A05208C60F /* JGProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAF740BFCB1BBCCB372A24A8E4E03BB /* JGProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF283FD848D630C424FCD780A111B1B /* JGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 069B4B3F2070E3446287899EA3859F3A /* JGProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24E58535BA242B818705031EE5BA26E /* JGProgressHUDAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 700A57A4D99035429B9F0F9F8C00D777 /* JGProgressHUDAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1F06E16A41E82D58027FF42AD430D7B /* JGProgressHUDPieIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 595F5481A34EDB088C95E1E758C1D600 /* JGProgressHUDPieIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9FD8DE2E7A52CF979BA554C60BE25B7 /* JGProgressHUDFadeZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7929E66C239A027541A34072CDA5E6 /* JGProgressHUDFadeZoomAnimation.m */; };
+		FA44B71D7C682C8E4F56F932E4D84F06 /* JGProgressHUDFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B92C40135474DFD387F4453751A2B56 /* JGProgressHUDFadeAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02987CC27E48F7BC4423B8991BEA2B47 /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
+		05CF36AB8F751E0A7750A08993A729B4 /* JGProgressHUDShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDShadow.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDShadow.h; sourceTree = "<group>"; };
+		069B4B3F2070E3446287899EA3859F3A /* JGProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUD.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUD.h; sourceTree = "<group>"; };
+		09DC269A92BF10CCD8463BAC91D3FDA6 /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.m; sourceTree = "<group>"; };
+		12E920AD03F47F27C64C448E272D3478 /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeZoomAnimation.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
+		201240A6B80815848BB6A137EE57BB2D /* JGProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		2140ED8094D2A08515F58A266E22713D /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDRingIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
+		2DE5388318B7A99017865164E48F4C01 /* JGProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		31C460CC8F5D455F85CEA07896F9E2BE /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDErrorIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
+		35734386C5C30436F9A177FE1CCFEC7D /* JGProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGProgressHUD.framework; path = JGProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3778E8C86F4849A6898682D12238F633 /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndeterminateIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
+		3C4AF3D69EC54AFFDB3E12A35225D360 /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDPieIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
+		3D51E4CE198BB14CF9F70A64D2B59A1C /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndeterminateIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
+		48F383CE38DC258C99DB890AA675482D /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDImageIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
+		4A426E0F7E875947DDD54493DE14EACC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4F45FDB6712C750D4B0B5CB68D945263 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		591E1C1E35704AAFAEBAF2F12723B4CE /* JGProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUD.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUD.m; sourceTree = "<group>"; };
+		595F5481A34EDB088C95E1E758C1D600 /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDPieIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
+		5AC358059B9879520286F13E573C373F /* JGProgressHUDSuccessIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDSuccessIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.m; sourceTree = "<group>"; };
+		6D4D90D7936C1C84AFEF7214080C2EE2 /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeAnimation.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
+		700A57A4D99035429B9F0F9F8C00D777 /* JGProgressHUDAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDAnimation.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDAnimation.h; sourceTree = "<group>"; };
+		717485686A51CD9135509C11B592352D /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDShadow.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.m; sourceTree = "<group>"; };
+		72C1C5D1624C23D7CE34E9C96DB731E0 /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDSuccessIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
+		7580E4FCCCC1333D60C73695D5588AD3 /* JGProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGProgressHUD.xcconfig; sourceTree = "<group>"; };
+		7BAF740BFCB1BBCCB372A24A8E4E03BB /* JGProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		8B92C40135474DFD387F4453751A2B56 /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
+		99B755A46338AC873483511BCF2BC609 /* JGProgressHUDErrorIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDErrorIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.m; sourceTree = "<group>"; };
+		B8C12D3A1DD0C8304C22648E3E29C558 /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		BF7929E66C239A027541A34072CDA5E6 /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeZoomAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
+		C24AC950C6E87FE9E54B6EF988B91E27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D852EE661CC7F4B108CFC65EC769441A /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDImageIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		E12F3B6A5D57889DD5DD54AC8405297F /* JGProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JGProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		E2B7EFEFEEFB8BEC182B5E3247A3B5CE /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JGProgressHUD-Defines.h"; path = "JGProgressHUD/JGProgressHUD/include/JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
+		F266C56B9B2824766E8D3961ECFE9F8F /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDRingIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
+		F95F9118B4FD29F08B927FD8C02A198A /* JGProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGProgressHUD.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49F1B5C48BD8067A449BC704EE60617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626539B9890BDABC5A9A2963C6A75B46 /* Foundation.framework in Frameworks */,
+				C11940576AFC09E035336033A32E370E /* QuartzCore.framework in Frameworks */,
+				BFBAD8F78794F171DC69E19D940D4D9A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E6E98D81368556E086DB1F621B0C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35734386C5C30436F9A177FE1CCFEC7D /* JGProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2545540957F7FB54A8F5424D2709E289 = {
+			isa = PBXGroup;
+			children = (
+				39308620900731C8E9FE239B7C6F9B80 /* Frameworks */,
+				E30A0BF41CE2A9B6CC3775FF51969ED9 /* JGProgressHUD */,
+				03E6E98D81368556E086DB1F621B0C4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39308620900731C8E9FE239B7C6F9B80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80432A6AC45CFCBF25D1459D0D3356EA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60155EC6F347B3654FEA97DB0A6332E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F95F9118B4FD29F08B927FD8C02A198A /* JGProgressHUD.modulemap */,
+				7580E4FCCCC1333D60C73695D5588AD3 /* JGProgressHUD.xcconfig */,
+				2DE5388318B7A99017865164E48F4C01 /* JGProgressHUD-dummy.m */,
+				E12F3B6A5D57889DD5DD54AC8405297F /* JGProgressHUD-Info.plist */,
+				201240A6B80815848BB6A137EE57BB2D /* JGProgressHUD-prefix.pch */,
+				7BAF740BFCB1BBCCB372A24A8E4E03BB /* JGProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JGProgressHUD";
+			sourceTree = "<group>";
+		};
+		80432A6AC45CFCBF25D1459D0D3356EA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C24AC950C6E87FE9E54B6EF988B91E27 /* Foundation.framework */,
+				4A426E0F7E875947DDD54493DE14EACC /* QuartzCore.framework */,
+				4F45FDB6712C750D4B0B5CB68D945263 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E30A0BF41CE2A9B6CC3775FF51969ED9 /* JGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				069B4B3F2070E3446287899EA3859F3A /* JGProgressHUD.h */,
+				591E1C1E35704AAFAEBAF2F12723B4CE /* JGProgressHUD.m */,
+				E2B7EFEFEEFB8BEC182B5E3247A3B5CE /* JGProgressHUD-Defines.h */,
+				700A57A4D99035429B9F0F9F8C00D777 /* JGProgressHUDAnimation.h */,
+				09DC269A92BF10CCD8463BAC91D3FDA6 /* JGProgressHUDAnimation.m */,
+				31C460CC8F5D455F85CEA07896F9E2BE /* JGProgressHUDErrorIndicatorView.h */,
+				99B755A46338AC873483511BCF2BC609 /* JGProgressHUDErrorIndicatorView.m */,
+				6D4D90D7936C1C84AFEF7214080C2EE2 /* JGProgressHUDFadeAnimation.h */,
+				8B92C40135474DFD387F4453751A2B56 /* JGProgressHUDFadeAnimation.m */,
+				12E920AD03F47F27C64C448E272D3478 /* JGProgressHUDFadeZoomAnimation.h */,
+				BF7929E66C239A027541A34072CDA5E6 /* JGProgressHUDFadeZoomAnimation.m */,
+				D852EE661CC7F4B108CFC65EC769441A /* JGProgressHUDImageIndicatorView.h */,
+				48F383CE38DC258C99DB890AA675482D /* JGProgressHUDImageIndicatorView.m */,
+				3D51E4CE198BB14CF9F70A64D2B59A1C /* JGProgressHUDIndeterminateIndicatorView.h */,
+				3778E8C86F4849A6898682D12238F633 /* JGProgressHUDIndeterminateIndicatorView.m */,
+				B8C12D3A1DD0C8304C22648E3E29C558 /* JGProgressHUDIndicatorView.h */,
+				02987CC27E48F7BC4423B8991BEA2B47 /* JGProgressHUDIndicatorView.m */,
+				595F5481A34EDB088C95E1E758C1D600 /* JGProgressHUDPieIndicatorView.h */,
+				3C4AF3D69EC54AFFDB3E12A35225D360 /* JGProgressHUDPieIndicatorView.m */,
+				2140ED8094D2A08515F58A266E22713D /* JGProgressHUDRingIndicatorView.h */,
+				F266C56B9B2824766E8D3961ECFE9F8F /* JGProgressHUDRingIndicatorView.m */,
+				05CF36AB8F751E0A7750A08993A729B4 /* JGProgressHUDShadow.h */,
+				717485686A51CD9135509C11B592352D /* JGProgressHUDShadow.m */,
+				72C1C5D1624C23D7CE34E9C96DB731E0 /* JGProgressHUDSuccessIndicatorView.h */,
+				5AC358059B9879520286F13E573C373F /* JGProgressHUDSuccessIndicatorView.m */,
+				60155EC6F347B3654FEA97DB0A6332E1 /* Support Files */,
+			);
+			name = JGProgressHUD;
+			path = JGProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A973CFADC4F2E099D47358A67AFA1CF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8FE9E9F1F73B4752B8E3FAD8946B77 /* JGProgressHUD-Defines.h in Headers */,
+				C1A443E8EE4421A9033B51A05208C60F /* JGProgressHUD-umbrella.h in Headers */,
+				CAF283FD848D630C424FCD780A111B1B /* JGProgressHUD.h in Headers */,
+				D24E58535BA242B818705031EE5BA26E /* JGProgressHUDAnimation.h in Headers */,
+				AC3EE197DD5A6A4AB538842FF0B7284C /* JGProgressHUDErrorIndicatorView.h in Headers */,
+				1CE65A8784759CD2C9BFA92518B74765 /* JGProgressHUDFadeAnimation.h in Headers */,
+				165101BB088E82DA6E88F961F162E3E3 /* JGProgressHUDFadeZoomAnimation.h in Headers */,
+				82816A8E2C804788B644B13F69E6D07B /* JGProgressHUDImageIndicatorView.h in Headers */,
+				84B2F768900C7FA82EE54D4CD29E8686 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */,
+				1C05AD7DCF644DA45CF2CCCE72274827 /* JGProgressHUDIndicatorView.h in Headers */,
+				E1F06E16A41E82D58027FF42AD430D7B /* JGProgressHUDPieIndicatorView.h in Headers */,
+				2AD3A27601F9978F3872282A3299C72D /* JGProgressHUDRingIndicatorView.h in Headers */,
+				332D6A8829844F642ACDF38D4D669FCA /* JGProgressHUDShadow.h in Headers */,
+				343C828E0383FBC74E7E5CB693AB7682 /* JGProgressHUDSuccessIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D8D10170F65E4BC27180EF36BADCF42C /* JGProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 492F086D3B027D390A72A7BC20B630DE /* Build configuration list for PBXNativeTarget "JGProgressHUD" */;
+			buildPhases = (
+				A973CFADC4F2E099D47358A67AFA1CF2 /* Headers */,
+				1599288047674431939E263BAC759794 /* Sources */,
+				D49F1B5C48BD8067A449BC704EE60617 /* Frameworks */,
+				5E41EFE209209D7FA24CDE35ACFAA0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGProgressHUD;
+			productName = JGProgressHUD;
+			productReference = 35734386C5C30436F9A177FE1CCFEC7D /* JGProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180A10931569CFE3BADA0F3867E7792F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 1FEB6956BFD052D9115DB583D61483DB /* Build configuration list for PBXProject "JGProgressHUD" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2545540957F7FB54A8F5424D2709E289;
+			productRefGroup = 03E6E98D81368556E086DB1F621B0C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D10170F65E4BC27180EF36BADCF42C /* JGProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E41EFE209209D7FA24CDE35ACFAA0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1599288047674431939E263BAC759794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7A9786E878CFF410A8939DA1890F11 /* JGProgressHUD-dummy.m in Sources */,
+				A0F707E067219AEF1B873A002F2E4F5D /* JGProgressHUD.m in Sources */,
+				7D675C5259BCCC20BCC8A0136DA4B4F0 /* JGProgressHUDAnimation.m in Sources */,
+				035B6DDA839F02B0DC9D3911BF3BD2F3 /* JGProgressHUDErrorIndicatorView.m in Sources */,
+				FA44B71D7C682C8E4F56F932E4D84F06 /* JGProgressHUDFadeAnimation.m in Sources */,
+				E9FD8DE2E7A52CF979BA554C60BE25B7 /* JGProgressHUDFadeZoomAnimation.m in Sources */,
+				3FF8C84301B54ED2EED161E36133BAEA /* JGProgressHUDImageIndicatorView.m in Sources */,
+				625EFAFD92F4E4308ADD43AE51132DA1 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
+				53CAE091A55B58DAE426D3D20BEF4C6F /* JGProgressHUDIndicatorView.m in Sources */,
+				7C3F3443C9834AB7BDF8CBF46EF3AACD /* JGProgressHUDPieIndicatorView.m in Sources */,
+				03EEC43F9247106CB3ABE7A2D454D70B /* JGProgressHUDRingIndicatorView.m in Sources */,
+				1F480ECCFD551940812FE6946E222C21 /* JGProgressHUDShadow.m in Sources */,
+				5887BE2142FAC38ED0EAD8536F701180 /* JGProgressHUDSuccessIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		504B69C125F96A03AC6ECA0407493873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6EBB28105A48DB8A918351394BD76C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F45428D16ADDC4185AECAC7742A31F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7580E4FCCCC1333D60C73695D5588AD3 /* JGProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = JGProgressHUD;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EE4F5AF1AE49CBF86CA2C78DD07DDF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7580E4FCCCC1333D60C73695D5588AD3 /* JGProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = JGProgressHUD;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEB6956BFD052D9115DB583D61483DB /* Build configuration list for PBXProject "JGProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBB28105A48DB8A918351394BD76C97 /* Debug */,
+				504B69C125F96A03AC6ECA0407493873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		492F086D3B027D390A72A7BC20B630DE /* Build configuration list for PBXNativeTarget "JGProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F45428D16ADDC4185AECAC7742A31F6 /* Debug */,
+				9EE4F5AF1AE49CBF86CA2C78DD07DDF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180A10931569CFE3BADA0F3867E7792F /* Project object */;
+}

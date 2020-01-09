@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LNg-tV-QHl">
-                                <rect key="frame" x="59" y="262.5" width="296.5" height="381.5"/>
+                                <rect key="frame" x="59" y="197" width="296.5" height="512"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4q-Tk-G8s">
                                         <rect key="frame" x="0.0" y="0.0" width="296.5" height="120.5"/>
@@ -112,6 +112,37 @@
                                             <constraint firstAttribute="bottom" secondItem="b0K-M5-6DH" secondAttribute="bottom" constant="20" id="yIE-jj-aP4"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hVW-W2-N5r">
+                                        <rect key="frame" x="0.0" y="391.5" width="296.5" height="120.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ddm-Vu-prr">
+                                                <rect key="frame" x="20" y="20" width="256.5" height="80.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pod Module" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE9-p5-WUX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="256.5" height="33.5"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                        <color key="textColor" name="PodModuleText"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnX-Tp-YHr">
+                                                        <rect key="frame" x="0.0" y="41.5" width="256.5" height="39"/>
+                                                        <color key="backgroundColor" name="PodModuleButton"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                        <state key="normal" title="Button">
+                                                            <color key="titleColor" name="PodModuleText"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="PodModuleBackground"/>
+                                        <constraints>
+                                            <constraint firstItem="ddm-Vu-prr" firstAttribute="top" secondItem="hVW-W2-N5r" secondAttribute="top" constant="20" id="AZw-sz-dqQ"/>
+                                            <constraint firstAttribute="bottom" secondItem="ddm-Vu-prr" secondAttribute="bottom" constant="20" id="nZQ-bW-U0e"/>
+                                            <constraint firstAttribute="trailing" secondItem="ddm-Vu-prr" secondAttribute="trailing" constant="20" id="p31-e7-A5t"/>
+                                            <constraint firstItem="ddm-Vu-prr" firstAttribute="leading" secondItem="hVW-W2-N5r" secondAttribute="leading" constant="20" id="vrc-8u-PKS"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -145,6 +176,15 @@
             <color red="1" green="0.97600001096725464" blue="0.078000001609325409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="NotSyncedModuleText">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PodModuleBackground">
+            <color red="0.48500001430511475" green="1" blue="0.92199999094009399" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PodModuleButton">
+            <color red="0.99699997901916504" green="0.57200002670288086" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PodModuleText">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="SyncedModuleBackground">
