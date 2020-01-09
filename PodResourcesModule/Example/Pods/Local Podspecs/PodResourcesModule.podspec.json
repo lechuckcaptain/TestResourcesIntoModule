@@ -1,0 +1,22 @@
+{
+  "name": "PodResourcesModule",
+  "version": "0.1.0",
+  "summary": "A short description of PodResourcesModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lechuckcaptain@gmail.com/PodResourcesModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lechuckcaptain@gmail.com": "lechuckcaptain@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lechuckcaptain@gmail.com/PodResourcesModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodResourcesModule/Classes/**/*"
+}

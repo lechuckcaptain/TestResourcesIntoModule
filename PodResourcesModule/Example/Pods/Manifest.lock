@@ -1,0 +1,16 @@
+PODS:
+  - PodResourcesModule (0.1.0)
+
+DEPENDENCIES:
+  - PodResourcesModule (from `../`)
+
+EXTERNAL SOURCES:
+  PodResourcesModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodResourcesModule: 3be648347e2bd83370f9fdeddfed5ae43cd8806f
+
+PODFILE CHECKSUM: e7fe23677fbd33b6f6d9af4d124927f69856e79c
+
+COCOAPODS: 1.8.4
